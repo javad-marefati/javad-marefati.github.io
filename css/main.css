@@ -1,4 +1,36 @@
-.search{
+li {
     list-style-type: none;
-    line-height: 50px;
+}
+/* .first{
+    margin-left: 100px;
+    } */
+.search {
+    margin-left: 30px;
+}
+.bussines:hover {
+    background-color: #6c757d;
+    color: red;
+}
+.Product li:hover i{
+    margin-left: 8px;
+    transition: all ease 400ms 0s;
+}
+.Product {
+    width: 350px;
+}
+.Design::after{
+    content: "";
+    transition: all 300ms ease 0s;
+    width: 100%;
+    height: 2px;
+    background-color: lightblue;
+    display: block;
+    transform-origin: center;
+    transform: scaleX(0);
+}
+.Design:hover::after{
+    transform: scaleX(1);
+}
+.Design:hover{
+    color: lightblue;
 }
