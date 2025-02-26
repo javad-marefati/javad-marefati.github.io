@@ -74,8 +74,21 @@ li {
     margin-left: 10px;
  }
  .notice:hover{
-    opacity: 0.7;
+    opacity: 0.6;
     color: white;
+ }
+ .space{
+    cursor: pointer;
+ }
+ .dates{
+    cursor: pointer;
+ }
+.lastline{
+    width: 1000px;
+}
+.mother{
+    width: 100%;
+     background-color: #efefef;
  }
 @media all and (max-width: 575px) {
     .kara{
